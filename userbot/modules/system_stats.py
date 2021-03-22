@@ -8,6 +8,7 @@ from shutil import which
 from os import remove
 from telethon import version
 from telethon import __version__, version
+from time import sleep
 import platform
 import sys
 import time
@@ -224,6 +225,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`I'M ALIVE!`")
     await alive.edit("⚡")
+    sleep(1)
     output = (
         f"  **┗┓≛ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ≛┏┛** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
@@ -299,6 +301,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`I'M ALIVE!`")
     await alive.edit("⚡")
+    sleep(1)
     output = (
         f"ㅤ**╭╼════════════════╾╮**\n"
         f"ㅤㅤㅤㅤㅤ**≛ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ≛** \n"
