@@ -106,8 +106,7 @@ async def pingme(pong):
     await pong.edit("**PING!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**ㅤㅤㅤ  ≛ 𝙲𝙾𝚁𝙾𝙽𝙰 𝚅𝙸𝚁𝚄𝚂 ≛** \n ㅤ**▰▱▰▱▰▱▰▱▰▱▰▱▰** \n╭╼═════════════════╾╮\n⌲Ping Virus  :  %s𝖒𝖘\n⌲Virus Aktif  :  {uptime} 𝐎𝐍⊨〛\n⌲My Boss   : ㅤ`{ALIVE_NAME}`\n╰╼═════════════════╾╯ " % (duration))              
-
+    await pong.edit(f"**ㅤㅤㅤ  ≛ 𝙲𝙾𝚁𝙾𝙽𝙰 𝚅𝙸𝚁𝚄𝚂 ≛** \n ㅤ**▰▱▰▱▰▱▰▱▰▱▰▱▰** \n╭╼═════════════════╾╮\n⌲Ping Virus  :  %s𝖒𝖘\n⌲Virus Aktif  :  {uptime} 𝐎𝐍⊨〛\n⌲My Boss   : ㅤ`{ALIVE_NAME}`\n╰╼═════════════════╾╯ " % (duration))
 
 
 @register(outgoing=True, pattern="^.sinyal$")
