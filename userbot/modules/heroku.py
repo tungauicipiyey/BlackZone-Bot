@@ -13,6 +13,7 @@ import asyncio
 from userbot import (
     HEROKU_APP_NAME,
     HEROKU_API_KEY,
+    ALIVE_NAME,
     BOTLOG,
     BOTLOG_CHATID,
     CMD_HELP)
@@ -179,15 +180,14 @@ async def dyno_usage(dyno):
             AppMinutes = math.floor(AppQuotaUsed % 60)
 
             await dyno.edit(
-                "**☛ Informasi Dyno**:\n\n╭━┯━━━━━━━━━━━━━━━━┯━╮\n"
-                f"✥ `Penggunaan Dyno` **{app.name}**:\n"
-                f"  ❉ **{AppHours} Jam - "
-                f"{AppMinutes} Menit  -  {AppPercentage}%**"
-                "\n ✲━─━─━─━─━─━─━─━─━─━✲\n"
-                "✥ `Sisa Dyno Bulan Ini`:\n"
-                f"  ❉ **{hours} Jam - {minutes} Menit  "
+                "**╭╼════════════════╾╮**\n**⊏ㅤㅤ≛𝙑𝙄𝙍𝙐𝙎 𝘽𝙊𝙏 𝘿𝙔𝙉𝙊≛ㅤㅤ⊨〛**\n**╰╼════════════════╾╯**\n"
+                f"⌲𝚂𝚙𝚎𝚛𝚖𝚊 𝙳𝚒𝚐𝚞𝚗𝚊𝚔𝚊𝚗 {ALIVE_NAME}\n"
+                f"    ➥**{AppHours} 𝐉𝐚𝐦 - "
+                f"{AppMinutes} 𝐌𝐞𝐧𝐢𝐭  -  {AppPercentage}%**"
+                "\n ▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰ \n"
+                "⌲𝚂𝚒𝚜𝚊 𝚂𝚙𝚎𝚛𝚖𝚊 𝙱𝚞𝚕𝚊𝚗 𝙸𝚗𝚒\n"
+                f"    ➥**{hours} 𝐉𝐚𝐦 - {minutes} 𝐌𝐞𝐧𝐢𝐭  "
                 f"-  {percentage}%**\n"
-                "╰━┷━━━━━━━━━━━━━━━━┷━╯"
             )
             await asyncio.sleep(20)
             await event.delete()
