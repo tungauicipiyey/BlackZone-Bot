@@ -42,7 +42,7 @@
     },
     "BOTLOG_CHATID": {
       "description": "Buatlah sebuah grup private/public masukan bot rose lalu ketik /id.",
-      "value": "isi id grup lo",
+      "value": "Isi id grup mu",
       "required": true
     },
     "CONSOLE_LOGGER_VERBOSE": {
@@ -51,7 +51,6 @@
     },
     "QUOTES_API_TOKEN": {
       "description": "Dapatkan Token Dari http://antiddos.systems",
-      "value": "33273f18-4a0d-4a76-8d78-a16faa002375",
       "required": false
     },
     "GENIUS_ACCESS_TOKEN": {
@@ -86,7 +85,6 @@
     },
     "OPEN_WEATHER_MAP_APPID": {
       "description": "Get your own APPID (API key)from https://api.openweathermap.org/data/2.5/weather",
-      "value": "b84d0dea12baa6acf6c22f41cea472b5",
       "required": false
     },
     "PM_AUTO_BAN": {
@@ -96,17 +94,14 @@
     },
     "YOUTUBE_API_KEY": {
       "description": "YouTube Data API Key for .yt command. Get from https://console.cloud.google.com",
-      "value": "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg",
       "required": false
     },
     "OCR_SPACE_API_KEY": {
       "description": "OCR API Key for .ocr command. Get from https://ocr.space/ocrapi",
-      "value": "0c2078b99188957",
       "required": false
     },
     "REM_BG_API_KEY": {
       "description": "API Key for .rbg command. Get from https://www.remove.bg/api",
-      "value": "GPLyodhzj3uY2fnJbSsnKek8",
       "required": false
     },
     "ANTI_SPAMBOT": {
@@ -156,15 +151,15 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "NotFound",
+      "value": "LORD-USERBOT",
       "required": false
     },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
       "required": false
     },
-    "ERROR_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .error (Isi Terserah)",
+    "LORD_TEKS_KUSTOM": {
+      "description": "Kustom Pesan Alive Mu Untuk Perintah .lord (Isi Terserah)",
       "required": false
     },
     "S_PACK_NAME": {
@@ -173,7 +168,7 @@
     },
     "G_BAN_LOGGER_GROUP": {
       "description": "Buatlah Sebuah Grup Private/Public Lalu Masukkan Bot Rose Lalu Ketik /id.",
-      "value": "Isi Id Grup Mu Contoh -52847823",
+      "value": "Isi id grup mu",
       "required": false
     },
     "G_DRIVE_DATA": {
@@ -203,7 +198,7 @@
     },
     "WEATHER_DEFCITY": {
       "description": "Set the default city for the userbot's weather module.",
-      "value": "Isi Kota Mu",
+      "value": "Batam",
       "required": false
     },
     "LOGSPAMMER": {
@@ -213,19 +208,18 @@
     },
     "DEEZER_ARL_TOKEN": {
       "description": "Input your DEEZER ARL TOKEN https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Login+via+userToken",
-      "value": "77d44120b28295ab132c9d2cddb0f4fad5515dc2d151a819bdfaef4cadc4464be31fbed7d1335fafe494e77b209a14a02d3e4bad6c428834698ea513202f76119892b578e3162af953d88a4539a463516156381d75be4e3f4b8cf0ead178e19c",
-      "required": true
+      "required": false
     },
     "UPSTREAM_REPO_URL": {
       "description": "In case you maintain a fork, add your repo URL here.",
       "required": false
     },
     "BOT_TOKEN": {
-      "description": "Isi BOT TOKEN Yang Sudah Anda Buat Di @BotFather",
+      "description": "Set this to enable inline bot helper. get the token from @BotFather",
       "required": false
     },
     "BOT_USERNAME": {
-      "description": "Isi BOT USERNAME Yang Sudah Anda buat Di @BotFather",
+      "description": "Username of the bot you created with @BotFather",
       "required": false
     }
   },
