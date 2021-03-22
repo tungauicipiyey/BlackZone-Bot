@@ -10,8 +10,8 @@
     "productivity"
   ],
   "repository": "https://github.com/tungauicipiyey/Virus-UserBot",
-  "telegram": "https://t.me/DamnBitchh",
-  "success_url": "https://t.me/CariTemen_Random",
+  "telegram": "https://t.me/CariTemen_Random",
+  "success_url": "https://t.me/DamnBitchh",
   "stack": "container",
   "env": {
     "API_KEY": {
