@@ -54,6 +54,7 @@ async def pingme(pong):
 
                     f"\n ⫸ ᴷᵃᵐᵖᵃⁿᵍ『`{ALIVE_NAME}`』 \n" % (duration))
 
+
 @register(outgoing=True, pattern='^.kar(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -87,7 +88,8 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("**I Love Youu 💛☑**")
     await typew.edit("**I Love Youu 💛✅**")
-        
+
+
 @register(outgoing=True, pattern='^.cabean(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -148,7 +150,7 @@ async def typewriter(typew):
     await typew.edit(f"**Alvin Korban Gay ✅**")
     sleep(1)
     await typew.edit("**Friski Kang Coli ☑ 💦**")
-    await typew.edit("**Friski Kang Coli ✅ 💦**")    
+    await typew.edit("**Friski Kang Coli ✅ 💦**")
     sleep(1)
     await typew.edit("**Toni Partner Gay Alvin ☑**")
     await typew.edit("**Toni Partner Gay Alvin✅**")
@@ -164,7 +166,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("**PASUKANN SAGAPUNGG READYY ☑ 👉👌💦**")
     await typew.edit("**PASUKANN SAGAPUNGG READYY ✅ 👉👌💦**")
-    
+
 # Owner @Si_Dian
 
 
