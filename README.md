@@ -7,13 +7,11 @@
 ### Repo Lord Userbot
 Repo Yang Dibuat [TUNGAU](https://t.me/DamnBitchh) Dari Berbagai Repo Userbot Github 
 
-
 ### CARA MENDAPATKAN STRING SESSON
 
 Caranya Pergi Ke Grup Support Lord-Userbot Lalu Ketik #String [TEKAN DISINI](https://t.me/LordUserbot_Group) Untuk Masuk Ke Grup Support
 
 ## Bagaimana Cara Deploy?
-
 
 * **CARA DEPLOY** 🔧
 
