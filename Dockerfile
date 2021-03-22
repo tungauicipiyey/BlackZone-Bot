@@ -4,7 +4,7 @@ FROM liualvinas24/docker:groovy
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -b Lord-Userbot https://github.com/tungauicipiyey/Virus-UserBot /root/userbot
+RUN git clone -b Virus-UserBot https://github.com/tungauicipiyey/Virus-UserBot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
