@@ -53,7 +53,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari Lord Userbot.`'
+                ' untuk dapat deploy perubahan terbaru dari ┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫.`'
             )
             repo.__del__()
             return
@@ -63,11 +63,11 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy Lord Userbot dyno.`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy ┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫ dyno.`'
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
-                         '\nDyno Lord-Userbot Sedang Dalam Proses, Mohon Menunggu 7-8 Menit`'
+                         '\nDyno ┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫ Sedang Dalam Proses, Mohon Menunggu 7-8 Menit`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -98,7 +98,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`Lord-Userbot Berhasil Di Update`")
+                "`┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫ Berhasil Di Update`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**Lord-Userbot Telah Di Perbarui ツ**")
+            "**┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫ Telah Di Perbarui ツ**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -208,7 +208,7 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update Lord Userbot**\n >`.update now`\n >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari Lord Userbot.__')
+        return await event.respond('**Perintah Untuk Update ┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫**\n >`.update now`\n >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari Lord Userbot.__')
 
     if force_update:
         await event.edit(
