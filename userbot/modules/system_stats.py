@@ -225,7 +225,7 @@ async def amireallyalive(alive):
     await alive.edit("`I'M ALIVE!`")
     await alive.edit("⚡")
     output = (
-        f" **┗┓LORD USERBOT┏┛** \n"
+        f"  **┗┓≛ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ≛┏┛** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
         f"**♛ ʟᴏʀᴅ** \n"
@@ -264,14 +264,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**▬▬▬▬▬▬❙۩♛۩❙▬▬▬▬▬▬**\n"
-        f"     **♕ LORD USERBOT ♕** \n\n"
+        f"      **≛ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ≛** \n\n"
         f"❃ **Lord**     \n   ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username** \n   ➥ `@{user.username}` \n"
         f"❃ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
         f"❃ **Python**   \n   ➥ `Versi {python_version()}` \n"
         f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
         f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [Lord-Userbot](https://github.com/Zora24/Lord-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Alvin](t.me/liualvinas)\n"
+        f"❃ **Repo Userbot:** [Virus-UserBot](https://github.com/tungauicipiyey/Virus-UserBot)\n❃ **Grup Oficial: **[Tekan](t.me/CariTemen_Random)\n❃ **Pemilik:** [TUNGAU](t.me/DamnBitchh)\n"
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
@@ -300,17 +300,20 @@ async def amireallyalive(alive):
     await alive.edit("`I'M ALIVE!`")
     await alive.edit("⚡")
     output = (
-        f"**♕ LORD USERBOT ♕** \n\n"
-        f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• `Lord     :`{DEFAULTUSER} \n"
-        f"┣|• `Username :`@{user.username} \n"
-        f"┣|• `Telethon :`Ver {version.__version__} \n"
-        f"┣|• `Python   :`Ver {python_version()} \n"
-        f"┣|• `Branch   :`{UPSTREAM_REPO_BRANCH} \n"
-        f"┣|• `Bot Ver  :`{BOT_VER} \n"
-        f"┣|• `Modules  :`{len(modules)} Modules \n"
-        f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
-        f"[Repo](https://github.com/Zora24/Lord-Userbot) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/liualvinas)")
+        f"ㅤ**╭╼════════════════╾╮**\n"      
+        f"ㅤㅤㅤㅤㅤ**≛ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ≛** \n" 
+        f"ㅤ**╰╼════════════════╾╯**\n" 
+        f"ㅤㅤ**𝐒𝐢𝐚𝐩𝐚𝐩𝐮𝐧 𝐁𝐢𝐬𝐚 𝐉𝐚𝐝𝐢 𝐀𝐩𝐚𝐩𝐮𝐧..!** \n"
+        f"**╭━━━━━━━━━━━━━━━━━━━━━╮** \n"
+        f"➨ **𝙼𝚢 𝙱𝚘𝚜𝚜** ㅤ ㅤ :   `{DEFAULTUSER}` \n"
+        f"➨ **𝚄𝚜𝚎𝚛𝚗𝚊𝚖𝚎** ㅤ  :   `@{user.username}` \n"
+        f"➨ **𝙿𝚢𝚝𝚑𝚘𝚗**    ㅤ    :   `Versi {python_version()}` \n"
+        f"➨ **𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗** ㅤ  :   `Versi {version.__version__}` \n"
+        f"➨ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗**    ㅤ  :   `{BOT_VER}` \n"  
+        f"**╰━━━━━━━━━━━━━━━━━━━━━╯**\n"   
+        f"ㅤ ㅤ🔰**•PEMILIK•**ㅤ :  ㅤ[TUNGAU](t.me/DamnBitchh) \n"
+        f"**▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱**\n"
+        f"ㅤ[👥Grup Oficial](t.me/CariTemen_Random)  |--|  [👤Instagram](https://www.instagram.com/arimulyaa_/)")          
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
