@@ -225,7 +225,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`I'M ALIVE!`")
     await alive.edit("⚡")
-    sleep(1)
+    sleep(2)
     output = (
         f"  **┗┓≛ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ≛┏┛** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
@@ -301,7 +301,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`I'M ALIVE!`")
     await alive.edit("⚡")
-    sleep(1)
+    sleep(2)
     output = (
         f"ㅤ**╭╼════════════════╾╮**\n"
         f"ㅤㅤㅤㅤㅤ**≛ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ≛** \n"
