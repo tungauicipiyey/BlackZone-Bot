@@ -91,7 +91,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`Lord-Userbot Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu Lord.....`")
+            await event.edit("`Virus-UserBot Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu Lord.....`")
             await asyncio.sleep(15)
             await event.delete()
 
@@ -115,9 +115,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('**✥ Lord-Userbot** `Berhasil Di Update!`')
+    await event.edit('**┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫** `Berhasil Di Update!`')
     await asyncio.sleep(1)
-    await event.edit('**✥ Lord-Userbot** `Di Restart....`')
+    await event.edit('**┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫** `Di Restart....`')
     await asyncio.sleep(1)
     await event.edit('`Mohon Menunggu Beberapa Detik Lord ツ`')
     await asyncio.sleep(10)
@@ -188,13 +188,13 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n**✣ Lord-Userbot Sudah Versi Terbaru**\n')
+            f'\n**┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫ Sudah Versi Terbaru**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**✣ Pembaruan Untuk Lord-Userbot [{ac_br}]:\n\n✣ Pembaruan:**\n`{changelog}`'
+        changelog_str = f'**✣ Pembaruan Untuk ┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫ [{ac_br}]:\n\n✣ Pembaruan:**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -214,12 +214,12 @@ async def upstream(event):
         await event.edit(
             '`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`')
     else:
-        await event.edit('`✲ Proses Update Lord-Userbot, Loading....1%`')
-        await event.edit('`✲ Proses Update Lord-Userbot, Loading....20%`')
-        await event.edit('`✲ Proses Update Lord-Userbot, Loading....35%`')
-        await event.edit('`✲ Proses Update Lord-Userbot, Loading....77%`')
-        await event.edit('`✲ Proses Update Lord-Userbot, Updating...90%`')
-        await event.edit('`✲ Proses Update Lord-Userbot, Mohon Menunggu Lord....100%`')
+        await event.edit('`✲ Proses Update ┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫, Loading....1%`')
+        await event.edit('`✲ Proses Update ┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫, Loading....20%`')
+        await event.edit('`✲ Proses Update ┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫, Loading....35%`')
+        await event.edit('`✲ Proses Update ┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫, Loading....77%`')
+        await event.edit('`✲ Proses Update ┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫, Updating...90%`')
+        await event.edit('`✲ Proses Update ┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫, Mohon Menunggu Lord....100%`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
