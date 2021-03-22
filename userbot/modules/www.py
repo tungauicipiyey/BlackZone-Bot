@@ -11,6 +11,7 @@ from datetime import datetime
 from speedtest import Speedtest
 from userbot import CMD_HELP, StartTime, ALIVE_NAME
 from userbot.events import register
+from time import sleep
 import time
 
 
