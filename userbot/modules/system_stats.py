@@ -14,7 +14,7 @@ import time
 from datetime import datetime
 import psutil
 
-from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, LORD_TEKS_KUSTOM, CMD_HELP, StartTime, UPSTREAM_REPO_BRANCH, bot
+from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, LORD_TEKS_KUSTOM, StartTime, bot
 from userbot.events import register
 
 
@@ -300,20 +300,20 @@ async def amireallyalive(alive):
     await alive.edit("`I'M ALIVE!`")
     await alive.edit("⚡")
     output = (
-        f"ㅤ**╭╼════════════════╾╮**\n"      
-        f"ㅤㅤㅤㅤㅤ**≛ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ≛** \n" 
-        f"ㅤ**╰╼════════════════╾╯**\n" 
+        f"ㅤ**╭╼════════════════╾╮**\n"
+        f"ㅤㅤㅤㅤㅤ**≛ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ≛** \n"
+        f"ㅤ**╰╼════════════════╾╯**\n"
         f"ㅤㅤ**𝐒𝐢𝐚𝐩𝐚𝐩𝐮𝐧 𝐁𝐢𝐬𝐚 𝐉𝐚𝐝𝐢 𝐀𝐩𝐚𝐩𝐮𝐧..!** \n"
         f"**╭━━━━━━━━━━━━━━━━━━━━━╮** \n"
         f"➨ **𝙼𝚢 𝙱𝚘𝚜𝚜** ㅤ ㅤ :   `{DEFAULTUSER}` \n"
         f"➨ **𝚄𝚜𝚎𝚛𝚗𝚊𝚖𝚎** ㅤ  :   `@{user.username}` \n"
         f"➨ **𝙿𝚢𝚝𝚑𝚘𝚗**    ㅤ    :   `Versi {python_version()}` \n"
         f"➨ **𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗** ㅤ  :   `Versi {version.__version__}` \n"
-        f"➨ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗**    ㅤ  :   `{BOT_VER}` \n"  
-        f"**╰━━━━━━━━━━━━━━━━━━━━━╯**\n"   
+        f"➨ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗**    ㅤ  :   `{BOT_VER}` \n"
+        f"**╰━━━━━━━━━━━━━━━━━━━━━╯**\n"
         f"ㅤ ㅤ🔰**•PEMILIK•**ㅤ :  ㅤ[TUNGAU](t.me/DamnBitchh) \n"
         f"**▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱**\n"
-        f"ㅤ[👥Grup Oficial](t.me/CariTemen_Random)  |--|  [👤Instagram](https://www.instagram.com/arimulyaa_/)")          
+        f"ㅤ[👥Grup Oficial](t.me/CariTemen_Random)  |--|  [👤Instagram](https://www.instagram.com/arimulyaa_/)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
