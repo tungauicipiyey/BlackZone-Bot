@@ -143,7 +143,7 @@ async def gben(userbot):
         pass
     return await dark.edit(
         f"**╭╼═✯══════✯═════✯═╾╮**\nㅤ**➢ Perintah Lord:** `{ALIVE_NAME}`\nㅤ**➟ Pengguna:** [{user.first_name}](tg://user?id={user.id})\nㅤ**➢ Aksi:** `Global Banned On`\n**╰╼═✯══════✯═════✯═╾╯**"
-
+    )
 
 
 @ register(outgoing=True, pattern="^.ungban(?: |$)(.*)")
