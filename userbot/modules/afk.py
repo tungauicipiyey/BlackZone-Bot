@@ -62,16 +62,16 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"- 𝗔 𝗙 𝗞 -\n**➢ Jangan Ganggu Dulu Ya Babu..!**\
-        \n**➥ ᴀʟᴀꜱᴀɴ :** `{string}`")
+        await afk_e.edit(f"ㅤ**≛ 𝗔 𝗙 𝗞 ≛**\n**╔═══════════✹═══════════╗**\nㅤ**➢ Jangan Ganggu Dulu Ya Babu..!**\
+        \nㅤ**➥ ᴀʟᴀꜱᴀɴ :** `{string}`\n**╚═══════════✹═══════════╝**")
     else:
-        await afk_e.edit("- 𝗔 𝗙 𝗞 -\n**➢ Jangan Ganggu Dulu Ya Babu..!**")
+        await afk_e.edit("ㅤ**≛  𝗔 𝗙 𝗞 ≛**\nㅤ**➢ Jangan Ganggu Dulu Ya Babu..!**")
     if user.last_name:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "【AFK】"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "【OFF】"))
     else:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="【OFF】"))
     if BOTLOG:
-        await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\n**Lord Telah AFK!**")
+        await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\n**Virus Telah AFK!**")
     ISAFK = True
     afk_time = datetime.now()  # pylint:disable=E0602
     raise StopPropagation
@@ -166,8 +166,8 @@ async def mention_afk(mention):
                 afk_since = f"`{int(seconds)} Detik`"
             if mention.sender_id not in USERS:
                 if AFKREASON:
-                    await mention.reply(f"- 𝗔 𝗙 𝗞 -\n**➢Cari Apa Kawan? Saya Sedang Off..!**\n**➟Durasi Afk : {afk_since} Yang Lalu.**\
-                        \n**➥ ᴀʟᴀꜱᴀɴ :** `{AFKREASON}`")
+                    await mention.reply(f"ㅤ**≛ 𝗔 𝗙 𝗞 ≛**\n**╔═══════════✹══════════╗**\nㅤ**➢Saya Sedang Offline..!**\nㅤ**➥Durasi Afk : {afk_since} Yang Lalu.**\
+                        \nㅤ**➥ ᴀʟᴀꜱᴀɴ :** `{AFKREASON}`\n**╚═══════════✹══════════╝**")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
                 USERS.update({mention.sender_id: 1})
@@ -175,8 +175,8 @@ async def mention_afk(mention):
             elif mention.sender_id in USERS:
                 if USERS[mention.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await mention.reply(f"- 𝗔 𝗙 𝗞 -\n**➢Cari Apa Kawan? Saya Sedang Off..!**\n**➟Durasi Afk : {afk_since} Yang Lalu.**\
-                            \n**➥ ᴀʟᴀꜱᴀɴ :** `{AFKREASON}`")
+                        await mention.reply(f"ㅤ**≛ 𝗔 𝗙 𝗞 ≛**\n**╔═══════════✹══════════╗**\nㅤ**➢Saya Sedang Offline..!**\nㅤ**➥Durasi Afk : {afk_since} Yang Lalu.**\
+                        \nㅤ**➥ ᴀʟᴀꜱᴀɴ :** `{AFKREASON}`\n**╚═══════════✹══════════╝**")
                     else:
                         await mention.reply(str(choice(AFKSTR)))
                     USERS[mention.sender_id] = USERS[mention.sender_id] + 1
@@ -243,8 +243,8 @@ async def afk_on_pm(sender):
                 afk_since = f"`{int(seconds)} Detik`"
             if sender.sender_id not in USERS:
                 if AFKREASON:
-                    await sender.reply(f"- 𝗔 𝗙 𝗞 -\n**➢Cari Apa Kawan? Saya Sedang Off..!**\n**➟Durasi Afk : {afk_since} Yang Lalu.**\
-                            \n**➥ ᴀʟᴀꜱᴀɴ :** `{AFKREASON}`")
+                    await sender.reply(f"ㅤ**≛ 𝗔 𝗙 𝗞 ≛**\n**╔═══════════✹══════════╗**\nㅤ**➢Saya Sedang Offline..!**\nㅤ**➥Durasi Afk : {afk_since} Yang Lalu.**\
+                        \nㅤ**➥ ᴀʟᴀꜱᴀɴ :** `{AFKREASON}`\n**╚═══════════✹══════════╝**")
                 else:
                     await sender.reply(str(choice(AFKSTR)))
                 USERS.update({sender.sender_id: 1})
@@ -252,8 +252,8 @@ async def afk_on_pm(sender):
             elif apprv and sender.sender_id in USERS:
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await sender.reply(f"- 𝗔 𝗙 𝗞 -\n**➢Cari Apa Kawan? Saya Sedang Off..!**\n**➟Durasi Afk : {afk_since} Yang Lalu.**\
-                            \n**➥ ᴀʟᴀꜱᴀɴ :** `{AFKREASON}`")
+                        await sender.reply(f"ㅤ**≛ 𝗔 𝗙 𝗞 ≛**\n**╔═══════════✹══════════╗**\nㅤ**➢Saya Sedang Offline..!**\nㅤ**➥Durasi Afk : {afk_since} Yang Lalu.**\
+                        \nㅤ**➥ ᴀʟᴀꜱᴀɴ :** `{AFKREASON}`\n**╚═══════════✹══════════╝**")
                     else:
                         await sender.reply(str(choice(AFKSTR)))
                     USERS[sender.sender_id] = USERS[sender.sender_id] + 1
