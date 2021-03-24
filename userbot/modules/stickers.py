@@ -243,7 +243,7 @@ async def kang(args):
 
         await args.edit(
             "**╔══════════✹══════════╗**\nㅤ`Sticker Berhasil Di Maling!`"
-            f"\n    ㅤㅤ ㅤ**[✹KLIK VIRUS✹](t.me/addstickers/{packname})** \nㅤㅤ`BANGGA JADI ORANG TOLOL`\n**╚══════════✹══════════╝**",
+            f"\n    ㅤㅤ ㅤ**[✹KLIK VIRUS✹](t.me/addstickers/{packname})** \nㅤㅤ`BANGGA JADI MALING TOLOL`\n**╚══════════✹══════════╝**",
             parse_mode="md",
         )
 
