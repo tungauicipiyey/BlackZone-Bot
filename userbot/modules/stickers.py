@@ -242,8 +242,8 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            "`Sticker Berhasil Di Maling!`"
-            f"\n     **[✹KLIK VIRUS✹](t.me/addstickers/{packname})** \nBANGGA JADI ORANG TOLOL",
+            "**╔═══════════✹═════════╗**\nㅤ`Sticker Berhasil Di Maling!`"
+            f"\n    ㅤㅤ **[✹KLIK VIRUS✹](t.me/addstickers/{packname})** \nㅤㅤ`BANGGA JADI ORANG TOLOL`\n**╚══════════✹══════════╝**",
             parse_mode="md",
         )
 
