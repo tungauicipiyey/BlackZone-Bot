@@ -4,7 +4,7 @@
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
 
-### Repo Lord Userbot
+### Repo Virus Userbot
 Repo Yang Dibuat [TUNGAU](https://t.me/DamnBitchh) Dari Berbagai Repo Userbot Github 
 
 ## Bagaimana Cara Deploy?
