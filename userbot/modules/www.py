@@ -105,15 +105,15 @@ async def pingme(pong):
     await pong.edit("⚡")
     sleep(2)
     await pong.edit(".                       /¯ )\n"
-                     "                      /¯  /\n"
-                     "                    /    /\n"
-                     "              /´¯/'   '/´¯¯`•¸\n"
-                     "          /'/   /    /       /¨¯\\ \n"
-                     "        ('(   (   (   (  ¯~/'  ')\n"
-                     "         \\                        /\n"
-                     "          \\                _.•´\n"
-                     "            \\              (\n"
-                     "              \\  ")
+                    "                      /¯  /\n"
+                    "                    /    /\n"
+                    "              /´¯/'   '/´¯¯`•¸\n"
+                    "          /'/   /    /       /¨¯\\ \n"
+                    "        ('(   (   (   (  ¯~/'  ')\n"
+                    "         \\                        /\n"
+                    "          \\                _.•´\n"
+                    "            \\              (\n"
+                    "              \\  ")
     sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
