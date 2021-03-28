@@ -104,7 +104,17 @@ async def pingme(pong):
     await pong.edit("**█▇▆▅▄▃▂▁**")
     await pong.edit("⚡")
     sleep(2)
-    await pong.edit("**PING..!**")
+    await pong.edit(".                       /¯ )\n"
+                     "                      /¯  /\n"
+                     "                    /    /\n"
+                     "              /´¯/'   '/´¯¯`•¸\n"
+                     "          /'/   /    /       /¨¯\\ \n"
+                     "        ('(   (   (   (  ¯~/'  ')\n"
+                     "         \\                        /\n"
+                     "          \\                _.•´\n"
+                     "            \\              (\n"
+                     "              \\  ")
+    sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**ㅤㅤㅤ  ≛ 𝙲𝙾𝚁𝙾𝙽𝙰 𝚅𝙸𝚁𝚄𝚂 ≛** \n ㅤ**▰▱▰▱▰▱▰▱▰▱▰▱▰** \n**╔══════════✹═════════╗**\n➢Ping Virus  : %s𝖒𝖘\n➢Virus Aktif  : {uptime}\n➢My Boss   : `{ALIVE_NAME}`\n**╚══════════✹═════════╝** " % (duration))
