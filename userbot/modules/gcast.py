@@ -12,7 +12,7 @@ from userbot import CMD_HELP
 async def gcast(event):
     xx = event.pattern_match.group(1)
     if not xx:
-        return await event.edit("`Lord, Mohon Berikan Sebuah Pesan`")
+        return await event.edit("`Mohon Berikan Sebuah Pesan`")
     tt = event.text
     msg = tt[6:]
     kk = await event.edit("`Sedang Mengirim Pesan Secara Global...`")
@@ -32,5 +32,5 @@ async def gcast(event):
 CMD_HELP.update(
     {
         "gcast": ".gcast <pesan>\
-    \nPenjelasan: Global Broadcast mengirim pesan ke Seluruh Grup yang Lord Masuki."
+    \nPenjelasan: Global Broadcast mengirim pesan ke Seluruh Grup yang Anda Masuki."
     })
