@@ -15,7 +15,7 @@ async def ultiny(event):
     if not (reply and (reply.media)):
         await event.edit("`Balas Ke Pesan COK`")
         return
-    xx = await event.edit("`TinyTinyLopyu ❤️...`")
+    xx = await event.edit("`TinyTiny Twinkk🐷...`")
     ik = await bot.download_media(reply)
     im1 = Image.open("resources/extras/kampangbot.png")
     if ik.endswith(".tgs"):
