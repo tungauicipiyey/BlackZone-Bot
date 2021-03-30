@@ -142,7 +142,7 @@ async def gben(userbot):
     except BaseException:
         pass
     return await dark.edit(
-        f"**╭╼═✯══════✯═════✯═╾╮**\nㅤ**➢ Perintah My Boss:** `{ALIVE_NAME}`\nㅤ**➟ Pengguna:** [{user.first_name}](tg://user?id={user.id})\nㅤ**➢ Aksi:** `Global Banned On`\n**╰╼═✯══════✯═════✯═╾╯**"
+        f"*ㅤ**𝙂𝘽𝘼𝙉𝙉𝙀𝘿 𝘽𝙔 𝙑𝙄𝙍𝙐𝙎 𝘽𝙊𝙏**\n**▱▰▱▰▱▰▱✹▰▱▰▱▰▱**\n**➢ Perintah My Boss:** `{ALIVE_NAME}`\n**➢ Pengguna:** [{user.first_name}](tg://user?id={user.id})\n**➢ Aksi:** `Global Banned On`"
     )
 
 
