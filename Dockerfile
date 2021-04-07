@@ -1,8 +1,7 @@
-# LORD USERBOT
-FROM koala21/kampangbot:buster
-
+# We're using Ubuntu 20.10
+FROM liualvinas24/docker:groovy
 #
-# LORD
+# Clone repo and prepare working directory
 #
 RUN git clone -b Virus-UserBot https://github.com/tungauicipiyey/Virus-UserBot /root/userbot
 RUN mkdir /root/userbot/.bin
