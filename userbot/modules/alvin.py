@@ -26,7 +26,7 @@ async def koc(e):
         await e.edit("SELAMANYA 💕")
         await e.edit("💘💘💘💘")
         await e.edit("SAYANG")
-        await e.edit("BEBEK ICIPIYEY💛")
+        await e.edit("**BEBEK ICIPIYEY💛**")
         sleep(1)
         await e.edit("SAYANG")
         await e.edit("**BEBEK ICIPIYEY💛**")
