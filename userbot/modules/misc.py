@@ -136,7 +136,7 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """ For .instagram command, just returns the instagram URL. """
     await wannasee.edit(
-        " **INSTAGRAM  :**  [ARI MULYA](https://www.instagram.com/arimulyaa_)"
+        " **INSTAGRAM  :**  [KLIK FOR MY INSTAGRAM](https://www.instagram.com/arimulyaa_)"
     )
 
 
