@@ -135,9 +135,9 @@ async def repo_is_here(wannasee):
 @register(outgoing=True, pattern="^.instagram$")
 async def repo_is_here(wannasee):
     """ For .instagram command, just returns the instagram URL. """
-    await wannase.edit(" **INSTAGRAM: ** [KLICK FOR MY INSTAGRAM TUNGAU](https: // www.instagram.com / arimulyaa_)\n
-                       ** INSTAGRAM: ** [KLICK FOR MY INSTAGRAM AINA](https: // www.instagram.com / ainnaaa.yr)"
-                       )
+    await wannase.edit(
+        " **INSTAGRAM: ** [KLICK FOR MY INSTAGRAM TUNGAU](https: // www.instagram.com / arimulyaa_)"
+    )
 
 
 @register(outgoing=True, pattern="^.raw$")
