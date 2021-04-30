@@ -182,13 +182,6 @@ async def typewriter(typew):
 # @mixiologist
 
 
-@register(outgoing=True, pattern='^.ainna(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit("`Getting Information...`")
-    sleep(1)
-    await typew.edit(**INSTAGRAM: ** [KLICK FOR MY INSTAGRAM AINA](https: // www.instagram.com / ainnaaa.yr))"
 
 CMD_HELP.update({
     "virus":
