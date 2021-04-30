@@ -142,7 +142,7 @@ async def repo_is_here(wannasee):
 
 @register(outgoing=True, pattern="^.ainnaa$")
 async def repo_is_here(wannasee):
-    """ For .ainnaa command, just returns the instagram URL. """
+    """ For .ainnaa command, just returns the ainnaa URL. """
     await wannase.edit(
         " **INSTAGRAM  :**  [KLICK FOR MY INSTAGRAM](https://www.instagram.com/ainnaaa.yr)"
     )
