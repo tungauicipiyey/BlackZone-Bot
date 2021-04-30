@@ -20,7 +20,6 @@ useragent = 'Mozilla/5.0 (Linux; Android 9; SM-G960F Build/PPR1.180610.011; wv) 
 opener.addheaders = [('User-agent', useragent)]
 
 
-
 @register(outgoing=True, pattern="^.ainna$")
 async def repo_is_here(wannasee):
     """ For .ainna command, just returns the ainna URL. """
