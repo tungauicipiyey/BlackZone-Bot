@@ -1,6 +1,5 @@
 from datetime import datetime
 import time
-import urllib
 from time import sleep
 from platform import uname
 from userbot import ALIVE_NAME, CMD_HELP, StartTime
@@ -180,7 +179,6 @@ async def typewriter(typew):
     await typew.edit("ㅤ**╭╼════════════════╾╮**\n**⊏ㅤㅤㅤ≛𝙑𝙄𝙍𝙐𝙎 𝘽𝙊𝙏 𝘿𝙔𝙉𝙊≛ㅤㅤ⊨〛**\nㅤ**╰╼════════════════╾╯**\n**╔══════════✹══════════╗**\n" f"**➢ `Penggunaan Sperma ` {ALIVE_NAME}**\n" f" ➥**0 jam - " f"0 menit - 0%**" "\n  **▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰** \n" "**➢ `Sisa Sperma Bulan Ini` **\n" f" ➥**9999 jam - 9999 menit " f"- 100%**\n**╚══════════✹══════════╝**"
                      )
 # @mixiologist
-
 
 
 CMD_HELP.update({
