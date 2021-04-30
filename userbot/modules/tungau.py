@@ -7,22 +7,8 @@
 # You can find misc modules, which dont fit in anything xD
 """ Userbot module for other small commands. """
 
-from random import randint
-from time import sleep
-from os import execl
-import asyncio
-import sys
-import os
-import io
-import sys
-from userbot import ALIVE_NAME, BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
-from userbot.events import register
-from userbot.utils import time_formatter
+from userbot import ALIVE_NAME
 import urllib
-import requests
-from bs4 import BeautifulSoup
-import re
-from PIL import Image
 
 
 # ================= CONSTANT =================
