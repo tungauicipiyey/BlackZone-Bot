@@ -26,3 +26,10 @@ async def repo_is_here(wannasee):
     await wannase.edit(
         " **INSTAGRAM: ** [KLICK FOR MY INSTAGRAM AINNA](https: // www.instagram.com/ainnaaa.yr)"
     )
+
+
+CMD_HELP.update({
+    "random":
+    ">`.ainna\
+    \nUsage: Link Url Instagram.",
+})
