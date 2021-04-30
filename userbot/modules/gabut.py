@@ -187,7 +187,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Getting Information...`")
     sleep(1)
-    await typew.edit(**INSTAGRAM  :**  [KLICK FOR MY INSTAGRAM AINA](https://www.instagram.com/ainnaaa.yr))"
+    await typew.edit(**INSTAGRAM: ** [KLICK FOR MY INSTAGRAM AINA](https: // www.instagram.com / ainnaaa.yr))"
 
 CMD_HELP.update({
     "virus":
