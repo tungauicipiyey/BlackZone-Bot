@@ -24,7 +24,7 @@ opener.addheaders = [('User-agent', useragent)]
 async def repo_is_here(wannasee):
     """ For .ainna command, just returns the ainna URL. """
     await wannase.edit(
-        " **INSTAGRAM: ** [KLICK FOR MY INSTAGRAM AINNA](https://www.instagram.com/ainnaaa.yr)"
+        " **MY INSTAGRAM: ** [AINNA](https://www.instagram.com/ainnaaa.yr/)"
     )
 
 
