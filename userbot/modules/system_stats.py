@@ -273,7 +273,7 @@ async def amireallyalive(alive):
         f"❃ **Python**   \n   ➥ `Versi {python_version()}` \n"
         f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
         f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [Virus-UserBot](https://github.com/tungauicipiyey/Virus-UserBot)\n❃ **Grup Oficial: **[Tekan](t.me/CariTemen_Random)\n❃ **Pemilik:** [TUNGAU](t.me/DamnBitchh)\n"
+        f"❃ **Repo Userbot:** [Virus-UserBot](https://github.com/tungauicipiyey/Virus-UserBot)\n❃ **Grup Oficial: **[BlackZone](https://t.me/+PqIcYU8xKDw5N2Q1)\n❃ **Pemilik:** [TUNGAU](t.me/DamnBitchh)\n"
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
@@ -316,7 +316,7 @@ async def amireallyalive(alive):
         f"**╚══════════✹══════════╝**\n"
         f"ㅤ ㅤ🔰**•PEMILIK•**ㅤ :  ㅤ[TUNGAU](t.me/DamnBitchh) \n"
         f"**▰▱▰▱▰▱▰▱✯▰▱▰▱▰▱▰**\n"
-        f"ㅤ[👥Grup Oficial](t.me/CariTemen_Random)  |--|  [👤Instagram](https://www.instagram.com/arimulyaa_/)")
+        f"ㅤ[👥Grup Oficial](https://t.me/+PqIcYU8xKDw5N2Q1)  |--|  [👤Instagram](https://www.instagram.com/arimulyaa_/)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
