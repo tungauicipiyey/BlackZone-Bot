@@ -5,7 +5,7 @@
 <p align="center">&nbsp;</p>
 
 ### Repo Virus Userbot
-Repo Yang Dibuat [TUNGAU](https://t.me/DamnBitchh) Dari Berbagai Repo Userbot Github 
+Repo Yang Dibuat [BlackZone](https://t.me/BLACKZ0NEE) Dari Berbagai Repo Userbot Github 
 
 ## Bagaimana Cara Deploy?
 
