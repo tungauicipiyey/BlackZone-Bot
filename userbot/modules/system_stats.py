@@ -314,7 +314,7 @@ async def amireallyalive(alive):
         f"➨ **𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗** ㅤ  :   `Versi {version.__version__}` \n"
         f"➨ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗**    ㅤ  :   `{BOT_VER}` \n"
         f"**╚══════════✹══════════╝**\n"
-        f"ㅤ ㅤ🔰**•PEMILIK•**ㅤ :  ㅤ[BlackZone](https://t.me/BLACKZ0NEE) \n"
+        f"ㅤ ㅤ🔰**•PEMILIK•**ㅤ : ㅤ[BlackZone](https://t.me/BLACKZ0NEE) \n"
         f"**▰▱▰▱▰▱▰▱✯▰▱▰▱▰▱▰**\n"
         f"ㅤ[👥Grup Oficial](https://t.me/+PqIcYU8xKDw5N2Q1)  |--|  [👤Instagram](https://www.instagram.com/arimulyaa_/)")
     if ALIVE_LOGO:
