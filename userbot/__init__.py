@@ -403,8 +403,8 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia ❃ :** **{}**\n               \n**❃ Daftar Modul Virus Userbot ❃ :** \n".format(
-                        "**┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫**",
+                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia ❃ :** **{}**\n               \n**❃ Daftar Modul 𝐁𝐋𝐀𝐂𝐊𝐙𝐎𝐍𝐄 𝐁𝐎𝐓 ❃ :** \n".format(
+                        "**┣─[ BlackZone ]─┫**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
