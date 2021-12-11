@@ -1,5 +1,6 @@
 from PIL import Image
 import os
+import cv2
 from userbot.events import register
 from userbot import CMD_HELP, bot
 
