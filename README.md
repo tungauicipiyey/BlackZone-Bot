@@ -1,4 +1,4 @@
-# 𝐁𝐋𝐀𝐂𝐊𝐙𝐎𝐍𝐄 𝐁𝐎𝐓
+# 𝐁𝐋𝐀𝐂𝐊𝐙𝐎𝐍𝐄
 ![𝐁𝐋𝐀𝐂𝐊𝐙𝐎𝐍𝐄 𝐁𝐎𝐓 Logo](https://telegra.ph/file/be9541158871e855ed1a0.jpg)
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
