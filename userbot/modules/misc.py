@@ -120,7 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**╔══════════✹══════════╗**\nㅤ**⌲ Repository :** [𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬](https://github.com/tungauicipiyey/Virus-UserBot)\nㅤ**⌲ Klik For Deploy :** [-𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬-](https://heroku.com/deploy?template=https://github.com/tungauicipiyey/Virus-UserBot/tree/Virus-UserBot)\nㅤ**⌲ Pemilik :** [TUNGAU](t.me/DamnBitchh)\n**╚══════════✹══════════╝**"
+        "**╔══════════✹══════════╗**\nㅤ**⌲ Repository :** [𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬](https://github.com/tungauicipiyey/Virus-UserBot)\nㅤ**⌲ Klik For Deploy :** [-𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬-](https://heroku.com/deploy?template=https://github.com/tungauicipiyey/Virus-UserBot/tree/Virus-UserBot)\nㅤ**⌲ Pemilik :** [BLACKZONE](https://t.me/BLACKZ0NEE)\n**╚══════════✹══════════╝**"
     )
 
 
