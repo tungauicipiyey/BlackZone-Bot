@@ -319,7 +319,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```『┣─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─┫ Telah Aktif』```")
+    await bot.send_message(BOTLOG_CHATID, "```『┣─[ 𝐁𝐋𝐀𝐂𝐊𝐙𝐎𝐍𝐄 𝐁𝐎𝐓 ]─┫ Telah Aktif』```")
     return
 
 with bot:
@@ -349,7 +349,7 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
-        custom.Button.inline("{} {} 🦠".format("🦠", x), data="ub_modul_{}".format(x))
+        custom.Button.inline("{} {} 🔞".format("🔞", x), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
