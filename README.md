@@ -1,5 +1,5 @@
 # Bot-𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬
-![Bot-𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬 Logo](https://t.me/c/1762785667/33689)
+![Bot-𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬 Logo](https://telegra.ph/file/be9541158871e855ed1a0.jpg)
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
