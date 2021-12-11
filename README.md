@@ -1,5 +1,5 @@
-# Bot-Virus
-![Bot-Virus Logo](https://telegra.ph/file/377e9eb52531394880b6d.jpg)
+# Bot-𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬
+![Bot-𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬 Logo](https://t.me/c/1762785667/33689)
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
@@ -22,7 +22,7 @@ Repo Yang Dibuat [TUNGAU](https://t.me/DamnBitchh) Dari Berbagai Repo Userbot Gi
   > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
 
 Atau Bisa Gabung Ke Grup Lord Userbot -> [TEKAN DISINI](https://t.me/LordUserbot_Group)
-## <p align="center">DEPLOY VIRUS USERBOT</p>
+## <p align="center">DEPLOY 𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬 USERBOT</p>
 
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/tungauicipiyey/Virus-UserBot/tree/Virus-UserBot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
