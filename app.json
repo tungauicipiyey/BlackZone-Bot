@@ -1,7 +1,7 @@
 {
-  "name": "Virus-UserBot",
-  "description": "[Virus-UserBot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/377e9eb52531394880b6d.jpg",
+  "name": "𝐁𝐋𝐀𝐂𝐊𝐙𝐎𝐍𝐄 𝐁𝐎𝐓",
+  "description": "[𝐁𝐋𝐀𝐂𝐊𝐙𝐎𝐍𝐄 𝐁𝐎𝐓] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/be9541158871e855ed1a0.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -10,8 +10,8 @@
     "productivity"
   ],
   "repository": "https://github.com/tungauicipiyey/Virus-UserBot",
-  "telegram": "https://t.me/CariTemen_Random",
-  "success_url": "https://t.me/DamnBitchh",
+  "telegram": "https://t.me/+PqIcYU8xKDw5N2Q1",
+  "success_url": "https://t.me/BLACKZ0NEE",
   "stack": "container",
   "env": {
     "API_KEY": {
