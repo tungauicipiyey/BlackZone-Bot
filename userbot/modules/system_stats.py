@@ -273,7 +273,7 @@ async def amireallyalive(alive):
         f"❃ **Python**   \n   ➥ `Versi {python_version()}` \n"
         f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
         f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [Virus-UserBot](https://github.com/tungauicipiyey/Virus-UserBot)\n❃ **Grup Oficial: **[BlackZone](https://t.me/+PqIcYU8xKDw5N2Q1)\n❃ **Pemilik:** [BlackZone](https://t.me/BLACKZ0NEE)\n"
+        f"❃ **Repo Userbot:** [BlackZone](https://github.com/tungauicipiyey/Virus-UserBot)\n❃ **Grup Oficial: **[BlackZone](https://t.me/+PqIcYU8xKDw5N2Q1)\n❃ **Pemilik:** [BlackZone](https://t.me/BLACKZ0NEE)\n"
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
