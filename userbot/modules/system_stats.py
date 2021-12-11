@@ -273,7 +273,7 @@ async def amireallyalive(alive):
         f"❃ **Python**   \n   ➥ `Versi {python_version()}` \n"
         f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
         f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [Virus-UserBot](https://github.com/tungauicipiyey/Virus-UserBot)\n❃ **Grup Oficial: **[BlackZone](https://t.me/+PqIcYU8xKDw5N2Q1)\n❃ **Pemilik:** [TUNGAU](t.me/DamnBitchh)\n"
+        f"❃ **Repo Userbot:** [Virus-UserBot](https://github.com/tungauicipiyey/Virus-UserBot)\n❃ **Grup Oficial: **[BlackZone](https://t.me/+PqIcYU8xKDw5N2Q1)\n❃ **Pemilik:** [BlackZone](https://t.me/BLACKZ0NEE)\n"
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
@@ -304,7 +304,7 @@ async def amireallyalive(alive):
     sleep(2)
     output = (
         f"**╭╼═✯══════════════✯═╾╮**\n"
-        f"ㅤㅤㅤ    ㅤ**≛ 𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬 ≛** \n"
+        f"ㅤㅤㅤ    **≛ 𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬 ≛** \n"
         f"**╰╼═✯══════════════✯═╾╯**\n"
         f"ㅤㅤ**𝐒𝐢𝐚𝐩𝐚𝐩𝐮𝐧 𝐁𝐢𝐬𝐚 𝐉𝐚𝐝𝐢 𝐀𝐩𝐚𝐩𝐮𝐧..!** \n"
         f"**╔══════════✹══════════╗** \n"
@@ -314,7 +314,7 @@ async def amireallyalive(alive):
         f"➨ **𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗** ㅤ  :   `Versi {version.__version__}` \n"
         f"➨ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗**    ㅤ  :   `{BOT_VER}` \n"
         f"**╚══════════✹══════════╝**\n"
-        f"ㅤ ㅤ🔰**•PEMILIK•**ㅤ :  ㅤ[TUNGAU](t.me/DamnBitchh) \n"
+        f"ㅤ ㅤ🔰**•PEMILIK•**ㅤ :  ㅤ[BlackZone](https://t.me/BLACKZ0NEE) \n"
         f"**▰▱▰▱▰▱▰▱✯▰▱▰▱▰▱▰**\n"
         f"ㅤ[👥Grup Oficial](https://t.me/+PqIcYU8xKDw5N2Q1)  |--|  [👤Instagram](https://www.instagram.com/arimulyaa_/)")
     if ALIVE_LOGO:
