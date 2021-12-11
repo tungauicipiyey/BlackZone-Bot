@@ -70,18 +70,18 @@ async def killdabot(event):
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
-                                        "`Lord-Userbot Telah Dimatikan`")
+                                        "`𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬 Telah Dimatikan`")
     await bot.disconnect()
 
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting Lord-Userbot...`")
+    await event.edit("`Restarting 𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTARTBOT \n"
-                                        "`Lord-Userbot Telah Di Restart`")
+                                        "`𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬 Telah Di Restart`")
     await bot.disconnect()
     # Spin a new instance of bot
     execl(sys.executable, sys.executable, *sys.argv)
@@ -120,7 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**╔══════════✹══════════╗**\nㅤ**⌲ Repository :** [Virus-Userbot](https://github.com/tungauicipiyey/Virus-UserBot)\nㅤ**⌲ Klik For Deploy :** [-𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬-](https://heroku.com/deploy?template=https://github.com/tungauicipiyey/Virus-UserBot/tree/Virus-UserBot)\nㅤ**⌲ Pemilik :** [TUNGAU](t.me/DamnBitchh)\n**╚══════════✹══════════╝**"
+        "**╔══════════✹══════════╗**\nㅤ**⌲ Repository :** [𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬](https://github.com/tungauicipiyey/Virus-UserBot)\nㅤ**⌲ Klik For Deploy :** [-𝑩𝑳𝑨𝑪𝑲 𝒁𝑶𝑵𝑬-](https://heroku.com/deploy?template=https://github.com/tungauicipiyey/Virus-UserBot/tree/Virus-UserBot)\nㅤ**⌲ Pemilik :** [TUNGAU](t.me/DamnBitchh)\n**╚══════════✹══════════╝**"
     )
 
 
