@@ -51,7 +51,6 @@ async def gucast(event):
     await kk.edit(f"Berhasil Mengirim Pesan Ke `{done}` obrolan, kesalahan dalam `{er}` obrolan(s)")
 
 
-
 # Alvin Ganteng
 CMD_HELP.update(
     {
@@ -60,7 +59,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-         "gucast": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: .gucast\
+        "gucast": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: .gucast\
          \n↳ : Mengirim Pesan Pribadi Secara Global."
     }
 )
