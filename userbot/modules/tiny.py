@@ -1,4 +1,5 @@
 from PIL import Image
+import cv2
 import os
 from userbot.events import register
 from userbot import CMD_HELP, bot
@@ -12,7 +13,7 @@ async def _(event):
         return
     xx = await event.edit("`Kecilin Tikell!!....`")
     ik = await bot.download_media(reply)
-    im1 = Image.open("userbot/utils/styles/RAMBOT.png")
+    im1 = Image.open("LordUserbot/lorduserbot.png")
     if ik.endswith(".tgs"):
         await event.client.download_media(reply, "ult.tgs")
         os.system("lottie_convert.py ult.tgs json.json")
