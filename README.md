@@ -4,7 +4,7 @@
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
 
-### Repo Virus Userbot
+### Repo BlackZone
 Repo Yang Dibuat [BlackZone](https://t.me/BLACKZ0NEE) Dari Berbagai Repo Userbot Github 
 
 ## Bagaimana Cara Deploy?
